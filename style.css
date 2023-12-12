@@ -1,0 +1,113 @@
+/* style.css */
+
+body {
+    line-height: 1;
+    font: 16px/28px arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: #343a40;
+    z-index: 99999;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 80px auto;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.judul {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.hero {
+    height: 320px;
+    background-image: url(foto1.jpg);
+    background-size: cover;
+    background-position: 0 -100px;
+    border-top: 5px solid lightslategray;
+    border-bottom: 5px solid lightslategray;
+}
+
+
+.main {
+    width: 65%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.penulis a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.penulis a:hover {
+    text-decoration: underline;
+}
+
+.sidebar {
+    width: 30%;
+    float: right;
+    padding-left: 20px;
+}
+
+.sidebar img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: #343a40;
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+}
+
+.copy {
+    color: #fff;
+    font-size: 14px;
+}
+
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1; /* Fix for IE 6/7 */
+}
